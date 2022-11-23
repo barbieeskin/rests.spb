@@ -1,6 +1,6 @@
 # rests.spb
 div 1 - id upper (верхний див с названием, вкладками и поисковой строкой)<br>
-upper_line (поддив узкий с вкладками и поисковой строкой); upper_retsspb (большой поддив с надписью); narrow_line (узкая голубая полоска)<br>
+upper_line (поддив узкий с вкладками и поисковой строкой); upper_retsspb (большой поддив с надписью); upper_narrow_line (узкая голубая полоска)<br>
 div 2 - id t_elements (основной див с 3 поддивами с подборками ресторанов)<br>
 t_elements_breakfast (поддив с завтраками); t_elements_dinner (поддив с ужианми); t_elements_deserts (поддив с десертами)<br>
 div 3 - id newsinrests (див с названием новой части news in rests)<br>
