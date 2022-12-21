@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+	margin:0;
+	font-family: 'Garet', sans-serif;
+}
+
+#upper{
+	background: #CABD9A;
+	width: 100%;
+	font-size: 28px;
+}
+
+#upper_line{
+	border-bottom: 3px solid #8AAAA5;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-between;
+	
+}
+#buttons{
+	display: flex;
+	padding-left: 10px;
+	gap: 20px;
+}
+.button{
+	text-align: center;
+	min-width: 7%;
+	color: #64583A;
+	
+}
+
+#search_bar{
+	width: 57%;
+	height: 40px;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+
+#search_bar input{
+	width: 80%;
+	height: 100%;
+	border-radius: 40px;
+	padding: 0;
+	border: none;
+	display:block;
+}
+
+#search_bar img{
+	height: 70%;
+	position: relative;
+	right: 22%;
+	top: -88%;
+}
+
+#upper_restsspb{
+	color: #64583A;
+	font-size: 110px; 
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Abril Fatface', cursive;
+}
+#t_elements{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+.t_element{
+	width: 24%;
+	margin-top: 3%;
+}
+
+.change{
+	width: 100%;
+	height: 812px;
+}
+.change img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.t_element img{
+	width: 100%;
+}
+
+.square{
+	width:100%;
+	height: 440px;
+	opacity: 0.82;
+	transform: translate(0,-79%);
+	color: #64583A;
+	font-size: 73px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	}
+	
+#s1{
+	background: #8AAAA5;
+}
+#s2{
+	background: #CABD9A;
+}
+#s3{
+	background: #CFDBDA;
+}
+
+#news_in_rests{
+	width: 100%;
+	height: 343px;
+	background: #8AAAA5;
+	position: relative;
+	top: -230px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: #3F5D59;
+	font-size: 110px;
+	font-family: 'Abril Fatface', cursive;
+
+}
+#events{
+	width: 100%;
+	height: 900px;
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	margin-top: -8%;
+}
+.event{
+	width: 33%;
+	height: 100%;
+	color: #64583A;
+	align-items: center;
+	text-align: center;
+	justify-content: flex-start;
+	font-size: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+.change2{
+	width: 100%;
+	height: 580px;
+}
+.change2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#tw_events_1{
+	background: #CABD9A;
+}
+
+#tw_events_2{
+	background: #8AAAA5;
+}
+
+#lower{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	background: #CABD9A;
+}
+#futter {
+	height: 400px;
+	width: 100%;
+	background-color: #CABD9A;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-top: 90px;
+	color: #3F5D59;
+	font-size: 110px;
+	font-family: 'Abril Fatface', cursive;
+}
