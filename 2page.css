@@ -10,17 +10,20 @@ body{
 	justify-content: center;
 	margin-top: 3%;
 	}
-
+.new_parent{
+	height: 500px;
+}
 
 #mother_left{
 	height: 100%;
 	width: 64%;
 	margin-top: 4%;
 	font-family: 'Abril Fatface', cursive;
+	font-size: 39px;
 	}
 	
 #line{
-	margin-top: 30%;
+	margin-top: 25%;
 	height: 5%;
 	width: 100%;
 	border-top: 3px solid #8AAAA5;
@@ -35,11 +38,14 @@ body{
 }
 #quadrat H1{
 	display: block;
-	margin-left: 1%;
-	padding-top: 1%;
+	margin-left: 25%;
+	padding-top: 6%;
+	color: #3F5D59;
+	width: 200%;
+	font-weight: 100;
 }
 #quadrat img{
-	margin-top: -10%;
+	margin-top: -6%;
 	margin-left: 15%;
 	width: 125%;
 }
@@ -66,11 +72,23 @@ body{
 	height: 24%;
 	width: 80%;
 	background: #CFDBDA;
+	color: #3F5D59;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+	
 	
 }
-
+.inf H2{
+	margin: 0;
+	font-size: 40px; 
+}
+.inf p{
+	font-size: 23px
+}
 #menu{
-	height: 33%;
+	height: 66%;
 	width: 80%;
 	background-color: rgba(207, 219, 218, 0.4);
 	margin-left: 6%;
@@ -85,9 +103,18 @@ body{
 	width: 75%;
 	height: 70%;
 	background-color: rgba(202, 189, 154, 0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
 	
 }
+#menu_beige H2{
+	color: #3F5D59;
+	font-size: 50px;
 
+	
+}
 #parent_left_low{
 	width: 49%;
 	display: flex;

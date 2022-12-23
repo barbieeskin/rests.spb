@@ -40,38 +40,72 @@
 			<div id="mother_right">
 				<div id="for_inf">
 					<div class="inf">
+						<H2> Адрес: </H2>
+						<p>
+						наб. Адмирала Лазарева, 22
+						</p>
 					</div>
 					<div class="inf">
+					<H2> Номер: </H2>
+						<p>
+						8 (812) 500-52-63
+						</p>
 					</div>
 					<div class="inf">
+						<H2> Средний чек: </H2>
+						<p>
+						2000 рублей
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="parent">
+		<div class="parent new_parent">
 			<div id="parent_left_low"> 
 				<div id="menu">
 					<div id="menu_beige">
+					<H2> Меню </H2>
 					</div>
 				</div>	
 				
 			</div>
 			<div id="parent_right_low">
 				<div id="arrow_left"> 
-					<img src="images page 2/-.png">
+					<img src="images page 2/-.png"  Onclick= "change('left')" >
 				</div>
 				<div id="image_bistro">
 					<div id="rectangle">
 					</div>
-					<img src="images page 2/bistro.jpg">
+					<img  id='currentimage' src="images page 2/page 2_1.jpg"  alt="1">
 				</div>
 				<div id="arrow_right">
-					<img src="images page 2/-.png">
+					<img src="images page 2/-.png"  Onclick= "change('right')">
 				</div>
 			</div>
 		</div>
 		<div id="futter">
 		@RESTS.SPB
 		</div>
+		<script>
+
+		  function change(direction){
+		  
+			var max = 3;
+			var page_num = 2;
+
+			var change =  document.getElementById('currentimage').alt;
+			if(direction=='left'){
+			  if(change!=1)  change = change * 1 - 1;
+
+			}else{
+			  if(change!= max) change = change * 1 + 1;
+
+			}
+			document.getElementById('currentimage').alt = change;
+			var address = "images page 2/page "+ page_num + "_"  +change + ".jpg";
+			document.getElementById('currentimage').src=address;
+			document.getElementById('aboveimage').src=address;
+		  }
+		</script>
 	</body>
 </html>
